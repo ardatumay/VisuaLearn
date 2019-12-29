@@ -42,7 +42,7 @@ export default class App extends Component<Props> {
   componentDidMount() {
     Animated.timing(this.state.progress, {
       toValue: 1,
-      duration: 5000,
+      duration: 2000,
       easing: Easing.linear
     }).start(() => {
       this.setState({ AnimFinish: true });
